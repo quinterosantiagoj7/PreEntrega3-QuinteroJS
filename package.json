@@ -1,0 +1,25 @@
+{
+  "name": "preentrega3quintero",
+  "version": "1.0.0",
+  "description": "PreEntrega 3 para CoderHouse proyecto enfocado en un taller de confecciones infantiles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass scss/stylescss.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quinterosantiagoj7/PreEntrega2-Quintero.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quinterosantiagoj7/PreEntrega2-Quintero/issues"
+  },
+  "homepage": "https://github.com/quinterosantiagoj7/PreEntrega2-Quintero#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "sass": "^1.56.1"
+  }
+}
